@@ -4,7 +4,7 @@ $(function(){
     var input = $('#input');
     var myName = false;
 
-    socket=io.connect("http://58.198.183.148:3000");
+    socket=io.connect("http://58.198.183.166:3000");
     socket.on('open',function(){
       status.text('Choose a name:');
     })
