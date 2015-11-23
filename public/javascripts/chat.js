@@ -7,7 +7,7 @@
     var myName = false;
 
     //建立websocket连接
-    socket = io.connect('http://58.198.183.166:3001');
+    socket = io.connect('http://localhost:3001');
     //收到server的连接确认
     socket.on('open',function(){
         status.text('Choose a name:');

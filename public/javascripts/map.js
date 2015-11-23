@@ -62,7 +62,10 @@ function init(){
                     });
 
    var geojson_format = new OpenLayers.Format.GeoJSON();
-   var vector_layer = new OpenLayers.Layer.Vector("randomSocketPoints",{styleMap:styleMap}); 
+   var vector_layer = new OpenLayers.Layer.Vector("randomSocketPoints",{
+    renderers:['Canvas'],
+    styleMap:styleMap
+  }); 
    map.addLayer(vector_layer);
    vector_layer.addFeatures(geojson_format.read(featurecollection));
 
