@@ -23,5 +23,6 @@
     
   }
  ```
-地图绘制采用 OpenLayers 的矢量图层，Canvas绘制后台实时发送来的随机点
+地图绘制采用 OpenLayers 的矢量图层，Canvas绘制后台实时发送来的随机点。Demo的截图如下：
+![Socket Send 随机坐标点截图](http://ww2.sinaimg.cn/large/4507b64agw1eyb784qw1kj20ok0jk7gx.jpg)
 
